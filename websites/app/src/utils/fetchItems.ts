@@ -25,6 +25,7 @@ export const relevantNetworks: { chainId: number; name: string }[] = [
   { chainId: 8453, name: 'Base Mainnet' },
   { chainId: 250, name: 'Fantom Opera' },
   { chainId: 324, name: 'zkSync' },
+  { chainId: 534352, name: 'Scroll' },
 ]
 
 export interface GraphItem {
