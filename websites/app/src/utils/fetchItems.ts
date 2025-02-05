@@ -193,7 +193,7 @@ export const fetchItems = async (
   `
 
   const result = (await request({
-    url: 'https://api.studio.thegraph.com/query/61738/legacy-curate-gnosis/version/latest',
+    url: 'https://gateway.thegraph.com/api/73380b22a17017c081123ec9c0e34677/subgraphs/id/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8',
     document: query,
     variables: {
       registry: registry.map((r) => registryMap[r]),
